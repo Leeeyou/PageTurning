@@ -16,15 +16,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        PageTurnView pageTurnView = (PageTurnView) findViewById(R.id.pageTurnView);
-//
-//        List<Bitmap> bitmaps = new ArrayList<>(3);
-//        bitmaps.add(BitmapFactory.decodeResource(getResources(), R.mipmap.jianzhu01));
-//        bitmaps.add(BitmapFactory.decodeResource(getResources(), R.mipmap.jianzhu02));
-//        bitmaps.add(BitmapFactory.decodeResource(getResources(), R.mipmap.jianzhu03));
-//        bitmaps.add(BitmapFactory.decodeResource(getResources(), R.mipmap.jianzhu04));
-//        bitmaps.add(BitmapFactory.decodeResource(getResources(), R.mipmap.jianzhu05));
-//
-//        pageTurnView.setBitmaps(bitmaps);
+        PageTurnView pageTurnView = (PageTurnView) findViewById(R.id.pageTurnView);
+
+        List<Bitmap> bitmaps = new ArrayList<>(3);
+        bitmaps.add(BitmapFactory.decodeResource(getResources(), R.mipmap.jianzhu01));
+        bitmaps.add(BitmapFactory.decodeResource(getResources(), R.mipmap.jianzhu02));
+        bitmaps.add(BitmapFactory.decodeResource(getResources(), R.mipmap.jianzhu03));
+        bitmaps.add(BitmapFactory.decodeResource(getResources(), R.mipmap.jianzhu04));
+        bitmaps.add(BitmapFactory.decodeResource(getResources(), R.mipmap.jianzhu05));
+
+        pageTurnView.setBitmaps(bitmaps);
     }
 }
