@@ -27,4 +27,5 @@ public class MainActivity extends AppCompatActivity {
 
         pageTurnView.setBitmaps(bitmaps);
     }
+
 }
